@@ -55,6 +55,14 @@
             "description": "fill with your telegram account username without @",
             "required": true
         },
+        "START_IMG": {
+            "description": "DM start Image",
+            "required": true
+        },
+        "UPSTREAM_REPO": {
+            "description": "Upgraded repo Link",
+            "required": true
+        },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true
