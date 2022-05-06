@@ -73,7 +73,7 @@ async def stop(client, m: Message):
             await calls.leave_group_call(chat_id)
             await remove_active_chat(chat_id)
             clear_queue(chat_id)
-            await m.reply_text("Song has been Stopped❗️")
+            await m.reply_text("sᴛᴏᴘ ❌ ᴘʟᴀʏɪɴɢ :)")
         except Exception as e:
             traceback.print_exc()
             await m.reply_text(f"× 404 !! Error ×")
@@ -95,7 +95,7 @@ async def pause(client, m: Message):
             await calls.pause_stream(chat_id)
             await music_off(chat_id)
             await m.reply_text(
-                "Music Paused❗️"
+                "ᴘᴀᴜsᴇᴅ ▶️ ᴍᴜsɪᴄ :("
             )
         except Exception as e:
             traceback.print_exc()
@@ -118,7 +118,7 @@ async def resume(client, m: Message):
             await calls.resume_stream(chat_id)
             await music_on(chat_id)
             await m.reply_text(
-                "Music Resumed❗️"
+                "ʀᴇsᴜᴍᴇᴅ ⏸ ᴍᴜsɪᴄ :)"
             )
         except Exception as e:
             traceback.print_exc()
@@ -135,7 +135,7 @@ async def skip(c: Client, m: Message):
     chat_id = m.chat.id
     queue = await skip_current_song(chat_id)
     if queue == 0:
-        await m.reply_text("Skipped to the next Song❗️")
+        await m.reply_text("sᴋɪᴘᴘᴇᴅ ⏩ ᴍᴜsɪᴄ :(")
     elif queue == 1:
         await m.reply_text("There is no more music in queue to skip❗")
     elif queue == 2:
@@ -172,7 +172,7 @@ async def mute(client, m: Message):
             await calls.mute_stream(chat_id)
             await music_off(chat_id)
             await m.reply_text(
-                "The assistant is muted Now❗"
+                "ᴍᴜᴛᴇᴅ ▶️ ᴜsᴇʀʙᴏᴛ :("
             )
         except Exception as e:
             traceback.print_exc()
@@ -195,7 +195,7 @@ async def unmute(client, m: Message):
             await calls.unmute_stream(chat_id)
             await music_on(chat_id)
             await m.reply_text(
-                "The assistant is unmute Now❗"
+                "ᴜɴᴍᴜᴛᴇᴅ ⏸ ᴜsᴇʀʙᴏᴛ :)"
             )
         except Exception as e:
             traceback.print_exc()
