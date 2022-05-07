@@ -39,11 +39,17 @@ from config import (
 async def start_set(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
-        f"""Hello, My name is Music Mic.
+        f"""ʜᴇʟʟᴏ [👋](START_IMG) ɪ ᴀᴍ ᴠᴇɴᴏᴍ sᴜᴘᴇʀ-ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ 🤖 ᴛᴏ ᴘʟᴀʏ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴍᴜsɪᴄ 🎸 ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
 
-I'm easy to use superfast telegram player for playing high quality and unbreakable music and video in your groups voice chat.
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴄʀᴇᴀᴛᴏʀ › : ʀᴏᴍᴇᴏ xᴅ
+┣★ ᴜᴘᴅᴀᴛᴇs › : sᴛʀᴀʏ ᴄᴏᴅᴇʀ
+┣★ sᴜᴘᴘᴏʀᴛ › : sᴛʀᴀʏ ᴄʜᴀᴛ 
+┣★ ᴏғғɪᴄɪᴀʟ  › : ɴᴇᴛᴡᴏʀᴋ 
+┣★ ʙʀᴏᴛʜᴇʀ › : ᴄғᴄ ᴘʜᴏᴇɴɪx
+┗━━━━━━━━━━━━━━━━━┛
 
-Use the given buttons for more.
+ᴜsᴇ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ !!
 """,
         reply_markup=InlineKeyboardMarkup(
             [
