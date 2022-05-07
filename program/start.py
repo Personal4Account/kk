@@ -102,12 +102,9 @@ async def start_(c: Client, message: Message):
                     InlineKeyboardButton("❓ᴄᴏᴍᴍᴀɴᴅs", callback_data="command_list")
                 ],[
                     InlineKeyboardButton("📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                    InlineKeyboardButton("📨 Updates", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("📨 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
-                    InlineKeyboardButton("✚ Add me to your Group", url=f"https://t.me/{me_bot.username}?startgroup=true")
-                ],[
-                    InlineKeyboardButton("🏳‍🌈 Basic Guide", callback_data="user_guide"),
-                    InlineKeyboardButton("💡 About", callback_data="about_bot")
+                    InlineKeyboardButton("⚙ ʙᴏᴛ ᴄᴏᴅᴇ", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],
             ]
         ),
