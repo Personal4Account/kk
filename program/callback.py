@@ -39,7 +39,7 @@ from config import (
 async def start_set(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
-        f"""ʜᴇʟʟᴏ [👋](START_IMG) ɪ ᴀᴍ ᴠᴇɴᴏᴍ sᴜᴘᴇʀ-ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ 🤖 ᴛᴏ ᴘʟᴀʏ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴍᴜsɪᴄ 🎸 ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
+        f"""ʜᴇʟʟᴏ [👋]({START_IMG}) ɪ ᴀᴍ ᴠᴇɴᴏᴍ sᴜᴘᴇʀ-ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ 🤖 ᴛᴏ ᴘʟᴀʏ ʜɪɢʜ ǫᴜᴀʟɪᴛʏ ᴍᴜsɪᴄ 🎸 ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
 
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴏʀ › : ʀᴏᴍᴇᴏ xᴅ
